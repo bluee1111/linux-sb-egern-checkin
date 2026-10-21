@@ -5,11 +5,11 @@ homepage: "https://linux.sb/"
 icon: "checkmark.circle.fill"
 
 compat_arguments:
-  CronExp: "37 9 * * *"
+  CronExp: "0 9 * * *"
   CaptureCookie: "true"
 
 compat_arguments_desc: |
-  CronExp=每日签到时间（Cron 表达式），默认 37 9 * * * 即每天 09:37（避开站点深夜不稳定的时段）
+  CronExp=每日签到时间（Cron 表达式），默认 0 9 * * * 即每天 09:00（避开站点深夜不稳定的时段）
   CaptureCookie=自动获取 Cookie（true 开 / false 关），默认 true
 
 env_schema:
