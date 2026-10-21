@@ -1,6 +1,6 @@
 name: "linux.sb 每日签到"
 description: "打开 linux.sb 登录后自动获取 Cookie，并定时签到（开关/时间见模板参数）"
-author: "凡凡"
+author: "tg @wuyifan90116"
 homepage: "https://linux.sb/"
 icon: "checkmark.circle.fill"
 
